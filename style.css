@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+div.forms {
+    width: 360px;
+    padding: 30px 40px 30px 40px;
+    margin: auto;
+    background: azure;
+    color: blueviolet;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    font-family: poppins;
+    text-align: center;
+}
+
+input{
+	border: none;
+	border-radius: 6px;
+	font-size: 15px;
+	padding-left: 10px;
+}
+div.buttonn {
+	margin-top: 12px;
+	text-align: right;
+}
+div.buttonn button {
+	font-weight: bold;
+    color: azure;
+    cursor: pointer;
+    font-size: 16px;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    border: none;
+}
+div.buttonn button:hover,div.buttonn button:active,div.buttonn button:focus {
+  background: #663399;
+}
+body {
+	padding-top: 11%;
+	background-color: blueviolet;
+}
+@media print{
+  .hilang {
+    display: none;
+  }
+}
